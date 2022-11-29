@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    padding:0;
+}  
+body {
+    font-family: verdana, arial, sans-serif;
+    text-align: center;
+    background:#EFEFEF;
+    color:#444;
+}
+#container {
+    width:600px;
+    background-color: #FFF;
+    border-radius:15px;
+    box-shadow:#333 1px 2px 2px;
+    margin:80px auto;
+}
+#topo {
+    padding: 20px;
+}
+h1 {
+    font-size: 1.8em;
+    padding: 20px 0 15px;
+} 
+h3 {
+    font-size: 1.2em;
+    margin: 10px 90px;
+}
+#topo p {
+    text-align: justify;
+    font-style: italic;
+    padding: 20px;
+}     
+label {
+    display:block;
+    font-style: italic;
+}
+input[type=email] {
+    font-size: 16px;
+    margin: 5px 0;
+    height: 25px;
+    width: 300px;
+}
+input:focus {
+    background:#FFF8B4;
+}
+.button {
+    background-color:#28597a;
+    border-radius:7px;
+    color:#FFF;
+    font-size:18px;
+    margin-top: 20px;
+    padding:6px 12px;
+}
+.button:hover {
+    background-color:#EFEFEF;
+    color: #28597a;
+    text-decoration:none;
+}
+.resultado {
+    font-size: 1.2em;
+    padding: 0 30px;
+}
+#rodape {
+    clear:both;
+    color:#222;
+    font-size:14px;
+    padding:20px 0 10px;
+}
+
+       
+#menu {
+float:left;
+text-align:left;
+margin:0 0 10px 30px;
+padding:0;
+}
+
+#menu ul li {
+list-style-type: none;
+}
+
+#menu a {
+display:block;
+height:24px;
+line-height:24px;
+font-size:14px;
+border:none;
+color:#28597a;
+text-decoration:none;
+padding:0 5px;
+}
+
+#menu a:hover {
+color:#777;
+border-left:3px solid #28597a;
+}
